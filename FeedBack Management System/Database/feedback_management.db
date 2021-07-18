@@ -1,0 +1,33 @@
+create database my_project_db;
+use my_project_db;
+
+create table login
+(
+	username varchar(20),
+    password varchar(200));
+    
+insert into login values("manas" , "abcd");
+
+create table stud
+(
+	name varchar(20),
+    number varchar(20),/*nuumber*/
+    email varchar(20),
+    date varchar(20),
+    gender varchar(20),
+    amb varchar(20),
+    ove varchar(20),
+    ser varchar(20),
+    cls varchar(2000)
+);
+select * from stud;
+
+create table adm
+(
+	name varchar(20),
+    user varchar(20),
+    email varchar(30),
+    pass varchar(20)
+);
+
+select * from adm;
