@@ -1,0 +1,11 @@
+create database ss;
+use ss;
+
+create table table22
+(
+name varchar(20),
+date varchar(20),
+	photo longblob
+)
+
+select * from table22;
